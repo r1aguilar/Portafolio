@@ -1,7 +1,0 @@
-Este programa utiliza los conceptos de programación orientada a objetos de composición, en mayor medida, además del uso de constructores.
-
-Se decidió por crear una clase tablero que sea un array de tipo integers ya que se conocia el largo que necesitaba tener de antemano y solo era necesario ingresarle valores random de serpientes y escaleras para representar las casillas, ademas de que tenerlo como array permitiria acceder de manera mas sencilla a sus contenidos.
-
-Se decidió por usar una clase jugador con los atributos de casilla, su numero de jugador y su avance, que sería el numero que la funcion random decidió por usar. Los metodos son muy importantes por que la funcion avanzar es la que realiza el tiro del dado y aumenta las casillas y es despues analizada en el constructor del juego para determinar la nueva casilla y las respectivas penalizaciones o ayudas.
-
-Para usar el programa simplemente basta con crear un .txt con el nombre que se desee y ponerle en letras mayusculas C o E, una por linea sin espacios en blanco, solamente la primera puede ponerse como cualquier letra pero a partir de la primera C no se debe de cambiar. Se tiene que crear un objeto de clase MyGame y al momento de llamar la funcion start para ese objeto ingresar el archivo que se creo con los turnos y el nombre para el archivo de salida que se desee.
